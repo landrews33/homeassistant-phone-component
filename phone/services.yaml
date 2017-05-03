@@ -1,0 +1,13 @@
+# Describes the format for available phone services
+
+call_number:
+  description: Call a telephone number from a given phone.
+
+  fields:
+    entity_id:
+      description: Name(s) of entities to place the call on.
+      example: 'phone.livingroom'
+    volume_level:
+      description: The number to call
+      example: +441223456789
+
